@@ -3,12 +3,12 @@ import React from 'react';
 import './App.css';
 import clevertap from 'clevertap-web-sdk';
 
-clevertap.init('W9R-486-4W5Z')
-clevertap.privacy.push({ optOut: false });
-clevertap.privacy.push({useIP: false})
-clevertap.setLogLevel(3)
+
 function App() {
-  
+  clevertap.init('W9R-486-4W5Z')
+  clevertap.privacy.push({ optOut: false });
+  clevertap.privacy.push({useIP: false})
+  clevertap.setLogLevel(3)
   // const enablePush = () =>{
   //   clevertap.notifications.push({
   //     "titleText":"Would you like to receive Push Notifications?",
