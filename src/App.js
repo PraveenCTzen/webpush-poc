@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import { WebRoutes } from './WebRoutes';
 // import clevertap from 'clevertap-web-sdk';
 
 
@@ -17,12 +18,13 @@ function App() {
   // });
   // }
   return (
-    <div className="App">
-      <div>
-        <h1>Hello World</h1>
-        {/* <button onClick={enablePush}> Enable Push Notification </button> */}
-      </div>
-    </div>
+    <WebRoutes/>
+    // <div className="App">
+    //   <div>
+    //     <h1>Hello World</h1>
+    //     {/* <button onClick={enablePush}> Enable Push Notification </button> */}
+    //   </div>
+    // </div>
   );
 }
 
