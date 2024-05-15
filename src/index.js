@@ -7,10 +7,10 @@ import reportWebVitals from './reportWebVitals';
 import clevertap from 'clevertap-web-sdk';
 
 
-clevertap.init('W9R-486-4W5Z')
-clevertap.privacy.push({ optOut: false });
-clevertap.privacy.push({useIP: false})
-clevertap.setLogLevel(3)
+// clevertap.init('W9R-486-4W5Z')
+// clevertap.privacy.push({ optOut: false });
+// clevertap.privacy.push({useIP: false})
+// clevertap.setLogLevel(3)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
