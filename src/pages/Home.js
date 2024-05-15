@@ -6,12 +6,12 @@ import { useState } from 'react';
 
 const Home = () => {
 
-  const [initialized, setInitialized] = useState(false);
-  OneSignal.init({ appId: '2fc4c79b-5bf1-49d6-9bae-889cf6ea486a' }).then(() => {
-  setInitialized(true);
-  OneSignal.Slidedown.promptPush();
-  // do other stuff
-})
+//   const [initialized, setInitialized] = useState(false);
+//   OneSignal.init({ appId: '2fc4c79b-5bf1-49d6-9bae-889cf6ea486a' }).then(() => {
+//   setInitialized(true);
+//   OneSignal.Slidedown.promptPush();
+//   // do other stuff
+// })
  
   // useEffect(() => {
   //   runOneSignal();
