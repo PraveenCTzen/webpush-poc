@@ -3,7 +3,7 @@
 
 // /* eslint-disable */
 // importScripts('https://s3-eu-west-1.amazonaws.com/static.wizrocket.com/js/sw_webpush_only_registration.js');
-// importScripts('https://s3-eu-west-1.amazonaws.com/static.wizrocket.com/js/sw_webpush.js');// remove CleverTap server worker from your root folder
+importScripts('https://s3-eu-west-1.amazonaws.com/static.wizrocket.com/js/sw_webpush.js');// remove CleverTap server worker from your root folder
 // importScripts('https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js');
 // importScripts('https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js');
 // const firebaseConfig = {
