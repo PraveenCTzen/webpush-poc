@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.homeTop{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.buttons{
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.scrollTest{
+  margin-top: 1500px;
+}
+.webPushBtn{
+  margin-bottom: 1500px;
+}
