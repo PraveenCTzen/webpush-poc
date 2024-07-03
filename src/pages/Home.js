@@ -7,7 +7,10 @@ import clevertap from 'clevertap-web-sdk';
 const Home = () => {
 
     const enablePush = () =>{
-      console.log('push log');
+      
+      if(clevertap){
+        console.log('push log', clevertap.getClevertapID());
+      }
           clevertap.notifications.push({
             "titleText":"Would you like to receive Push Notifications?",
             "bodyText":"We promise to only send you relevant content and give you updates on your transactions",
