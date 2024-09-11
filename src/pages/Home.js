@@ -15,7 +15,7 @@ const Home = () => {
             "rejectButtonText":"Cancel",
             "okButtonColor":"#F28046",
             "askAgainTimeInSeconds":5,
-            "serviceWorkerPath": "./firebase-messaging-sw.js"
+            "serviceWorkerPath": "./firebase-messaging.js"
         });
         }
 
