@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import clevertap from 'clevertap-web-sdk';
+import clevertap from 'clevertap-web-sdk';
 
 // import { useState } from 'react';
 
