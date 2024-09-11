@@ -4,16 +4,17 @@ import './index.css';
 import App from './App';
 // import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-// import OneSignal from 'react-onesignal';
+import OneSignal from 'react-onesignal';
 
-// OneSignal.init({ appId: '2fc4c79b-5bf1-49d6-9bae-889cf6ea486a' });
-import clevertap from 'clevertap-web-sdk';
+OneSignal.init({ appId: '2fc4c79b-5bf1-49d6-9bae-889cf6ea486a' });
+// import clevertap from 'clevertap-web-sdk';
 
 
-clevertap.init('W9R-486-4W5Z')
-clevertap.privacy.push({ optOut: false });
-clevertap.privacy.push({useIP: false})
-clevertap.setLogLevel(3)
+// clevertap.init('W9R-486-4W5Z')
+// clevertap.init('WRK-485-456Z', 'sk1-staging-16', 'wzrkt.com')
+// clevertap.privacy.push({ optOut: false });
+// clevertap.privacy.push({useIP: false})
+// clevertap.setLogLevel(3)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
